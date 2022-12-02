@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form>
+            <fieldset class="account">
+                <legend>Account</legend>
+                <p><input type="Full Name" placeholder="Full Name"></p>
+                <p><input type="Email Adress" placeholder="Email Adress"></p>
+                <p><input type="Password" placeholder="Password"></p> 
+            </fieldset>
+            <br>
+            <div>
+                <fieldset class="Date">
+                    <legend>Date of Birth</legend>
+                    <input type="text" placeholder="DD"><input type="text" placeholder="MM"><input type="text" placeholder="YYYY">
+                </fieldset>
+                <fieldset class="Gender">
+                    <legend>Gender</legend>
+                    <input type="button" value="Male" placeholder="Male">
+                    <input type="button" value="Female" placeholder="Female">
+                </fieldset>
+            </div>
+            <br>
+            <fieldset class="Details">
+                    <legend>Payment Details</legend>
+                    <div class="one">
+                        <input type="button" value="Credit Card" placeholder="Credit Card">
+                        <input type="button" value="Paypal" placeholder="Paypal">
+                    </div>
+                    <p class="Number"><input type="text" placeholder="Card Number"></p>
+                    <p class="CVC">
+                        <input type="text" placeholder="Card CVC">
+                        <select class="Month">
+                            <option>01 Jan</option>
+                            <option>01 Apr</option>
+                            <option>01 Mar</option>
+                        </select>
+                        <select class="Year">
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                        </select>
+                    </p>
+            </fieldset>
+            <br>
+            <fieldset class="Terms">
+                <legend>Terms and Conditions</legend>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I accept the terms and conditions for signing up to this service, and <br> hereby confirm i have read the privacy policy.</label>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

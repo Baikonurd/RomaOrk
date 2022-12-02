@@ -1,0 +1,152 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #E3E3E3;
+}
+section {
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 40px;
+}
+.account {
+    border: none;
+}
+.account legend {
+    color: #F0A500;
+    font-weight: bold;
+}
+.account input {
+    width: 100%;
+    height: 50px;
+    background-color: #F8F8F8;
+    border: 2px solid #EBEBEB;
+    border-radius: 4px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    color: #808080;
+}
+form div {
+    display: flex;
+}
+.Date {
+    border: none;
+    width: 50%;
+}
+.Date legend {
+    color: #F0A500;
+    font-weight: bold;
+}
+.Gender {
+    border: none;
+    font-weight: bold;
+    width: 45%;
+    display: flex;
+}
+.Gender legend {
+    color: #F0A500;
+}
+.Date input {
+    background-color: #F8F8F8;
+    border-radius: 4px;
+    border: 2px solid #EBEBEB;
+    width: 105px;
+    height:55px;
+    margin-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: #808080;
+}
+.Gender input {
+    background-color: #F8F8F8;
+    border: 2px solid #EBEBEB;
+    padding: 20px 55px;
+    width: 50%;
+    color: #808080;
+}
+.Gender input:hover {
+    background-color: #F0A500;
+    color: white;
+}
+.Gender input:nth-child(1) {
+    border-radius: 5px 0px 0px 5px;
+}
+.Gender input:nth-child(2) {
+    border-radius: 0px 5px 5px 0px;
+}
+.Details {
+    border: none;
+}
+.Details legend {
+    color: #F0A500;
+    font-weight: bold;
+}
+.Details .one input {
+    display: flex;
+    background-color: #F8F8F8;
+    border: 2px solid #EBEBEB;
+    padding: 20px 150px;
+    color: #808080;
+}
+.Details .one input:hover {
+    background-color: #F0A500;
+    color: white;
+}
+.Details .Number input {
+    background-color: #F8F8F8;
+    border: 2px solid #EBEBEB;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    border-radius: 5px;
+}
+.Details .CVC input {
+    width: 50%;
+    background-color: #F8F8F8;
+    border: 2px solid #EBEBEB;
+    box-sizing: border-box;
+    color: #808080;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    border-radius: 5px;
+}
+.Details .Month {
+    width: 25%;
+    background-color: #F8F8F8;
+    border: 2px solid #EBEBEB;
+    color: #808080;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.Details .Year {
+    width: 23%;
+    background-color: #F8F8F8;
+    border: 2px solid #EBEBEB;
+    color: #808080;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.Terms {
+    border: none;
+    color: #808080;
+}
+.Terms legend {
+    color: #F0A500;
+    font-weight: bold;
+}
+.Terms label {
+    border-color: #EBEBEB;
+}
+.Terms label:hover {
+    color: #F0A500;
+}
+
